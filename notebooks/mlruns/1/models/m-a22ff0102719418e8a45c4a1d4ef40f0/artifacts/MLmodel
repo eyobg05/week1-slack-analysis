@@ -1,0 +1,30 @@
+artifact_path: file:C:/Users/eyobg/Desktop/Internship Training/notebook/week1-slack-analysis/notebooks/mlruns/1/models/m-a22ff0102719418e8a45c4a1d4ef40f0/artifacts
+flavors:
+  python_function:
+    cloudpickle_version: 3.1.2
+    code: null
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.pyfunc.model
+    python_model: python_model.pkl
+    python_version: 3.14.5
+    streamable: false
+is_signature_from_type_hint: false
+mlflow_version: 3.13.0
+model_id: m-a22ff0102719418e8a45c4a1d4ef40f0
+model_size_bytes: 6431
+model_uuid: m-a22ff0102719418e8a45c4a1d4ef40f0
+prompts: null
+run_id: 036fc1f315794ad3ba6cc542c60e51f7
+saved_input_example_info:
+  artifact_path: input_example.json
+  pandas_orient: split
+  serving_input_path: serving_input_example.json
+  type: dataframe
+signature:
+  inputs: '[{"type": "string", "name": "text", "required": true}]'
+  outputs: '[{"type": "string", "name": "text", "required": true}]'
+  params: null
+type_hint_from_example: false
+utc_time_created: '2026-06-16 04:52:28.044860'
